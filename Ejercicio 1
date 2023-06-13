@@ -1,0 +1,19 @@
+Ejercicio 1: Crear un archivo scripts.js y en el declarar las variables:
+
+nombresEstudiante = “Diego Andres”
+apellidosEstudiante = “Salinas Carrión”
+edadEstudiante = 21
+notaFinal = 18
+
+Escribir en la consola a través de la instrucción console.log() utilizando las variables creadas, lo siguiente:
+
+El estudiante Diego Andres Salinas Carrión de 21 años de edad tiene una nota final de 18 puntos.
+
+Javascript:
+
+var nombresEstudiante = "Diego Andres";
+var apellidosEstudiante = "Salinas Carrión";
+var edadEstudiante = 21;
+var notaFinal = 18;
+
+console.log("El estudiante " + nombresEstudiante + " " + apellidosEstudiante + " de " + edadEstudiante + " años de edad tiene una nota final de " + notaFinal + " puntos.");
