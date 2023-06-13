@@ -1,0 +1,18 @@
+Ejercicio 3: Crear un archivo script.js y crear el siguiente programa. Dado un número, verificar si este es un numero par o impar. Se puede realizar utilizando el operador de módulo %. Entonces si el número en la variable número es par, imprimir lo siguiente:
+
+El número es par
+
+Caso contrario, imprimir lo siguiente:
+
+El número es impar
+
+
+Javascript:
+
+const numero = prompt("Ingrese un número: ");
+
+if (numero % 2 === 0) {
+  console.log("El número es par.");
+} else {
+  console.log("El número es impar.");
+}
