@@ -1,0 +1,28 @@
+Ejercicio 5: Dado el siguiente array, utilizar los bucles while, do-while y for para iterar o recorrer el array imprimiendo en consola cada vez los valores 
+
+arreglo = [2, 4, 5, 6, 7, 8, 1, 10, 12, 25, 3, 1, 9, 27, 30] 
+
+
+Javascript:
+
+
+var arreglo = [2, 4, 5, 6, 7, 8, 1, 10, 12, 25, 3, 1, 9, 27, 30];
+
+// Bucle while
+var i = 0;
+while (i < arreglo.length) {
+  console.log(arreglo[i]);
+  i++;
+}
+
+// Bucle do-while
+var j = 0;
+do {
+  console.log(arreglo[j]);
+  j++;
+} while (j < arreglo.length);
+
+// Bucle for
+for (var k = 0; k < arreglo.length; k++) {
+  console.log(arreglo[k]);
+}
