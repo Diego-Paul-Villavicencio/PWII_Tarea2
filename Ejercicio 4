@@ -1,0 +1,30 @@
+Ejercicio 4: Crear un archive script.js. que imprima el dia de la semana en base a un numero guardado en la variable dia, utilizando la sentencia switch. Si el número de la variable es 1, debe imprimir en consola la palabra “Lunes”, si la variable es 5, debe imprimir en consola la palabra “Viernes”, si la variable es 7, debe imprimir la palabra “Domingo”, si la variable es 0, 8 o mayor, debe imprimir la palabra “Día no válido”
+
+
+Javascript:
+
+
+var dia = 1;
+
+function convierteDia(numeroDia) {
+  switch (numeroDia) {
+    case 1:
+      return "Lunes";
+    case 2:
+      return "Martes";
+    case 3:
+      return "Miércoles";
+    case 4:
+      return "Jueves";
+    case 5:
+      return "Viernes";
+    case 6:
+      return "Sábado";
+    case 7:
+      return "Domingo";
+    default:
+      return "Día no válido";
+  }
+}
+
+console.log(convierteDia(dia));
