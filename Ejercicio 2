@@ -1,0 +1,35 @@
+Crear un archivo scripts.js con las siguientes variables declaradas con la palabra reservada const escribir el tipo de dato al que pertenece la variable
+
+variable1 = 18
+variable2 = “Joaquin”
+variable3 = ‘A’
+variable4 = true
+variable5 = {
+	prop1: “prop1”,
+	prop2: 10
+}
+
+Escribir en la consola a través de la instrucción console.log(), de la siguiente manera por ejemplo:
+
+El tipo de dato de la variable1 es number
+El tipo de dato de la variable2 es string
+Etc…
+
+
+Javascript:
+
+
+const variable1 = 18;
+const variable2 = "Joaquin";
+const variable3 = 'A';
+const variable4 = true;
+const variable5 = {
+  prop1: "prop1",
+  prop2: 10
+};
+
+console.log("El tipo de dato de la variable1 es " + typeof variable1);
+console.log("El tipo de dato de la variable2 es " + typeof variable2);
+console.log("El tipo de dato de la variable3 es " + typeof variable3);
+console.log("El tipo de dato de la variable4 es " + typeof variable4);
+console.log("El tipo de dato de la variable5 es " + typeof variable5);
